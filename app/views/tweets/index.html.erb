@@ -2,7 +2,7 @@
 
 <h1>Tweets</h1>
 
-<div id="tweets">
+<div id="tweets" class="my-5">
   <% @tweets.each do |tweet| %>
     <%= render tweet %>
     <p>
@@ -12,3 +12,4 @@
 </div>
 
 <%= link_to "New tweet", new_tweet_path %>
+<%== pagy_bootstrap_nav(@pagy) %>
