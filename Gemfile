@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "pagy", "~> 6.0"
+
+gem "pg_search", "~> 2.3"

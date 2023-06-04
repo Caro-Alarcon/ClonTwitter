@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-require 'pagy/extras/bootstrap'
 
 # Pagy initializer file (6.0.4)
 # Customize only what you really need and notice that the core Pagy works also without any of the following lines.
@@ -128,7 +127,7 @@ require 'pagy/extras/bootstrap'
 
 # Bootstrap extra: Add nav, nav_js and combo_nav_js helpers and templates for Bootstrap pagination
 # See https://ddnexus.github.io/pagy/docs/extras/bootstrap
-# require 'pagy/extras/bootstrap'
+require 'pagy/extras/bootstrap'
 
 # Bulma extra: Add nav, nav_js and combo_nav_js helpers and templates for Bulma pagination
 # See https://ddnexus.github.io/pagy/docs/extras/bulma
